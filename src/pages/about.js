@@ -32,14 +32,12 @@ export const pageQuery = graphql`
         author {
           name
           bio {
-            role
             description
-            thumbnail
+            email
           }
           social {
             github
             linkedIn
-            email
           }
         }
 

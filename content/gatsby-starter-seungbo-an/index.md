@@ -1,3 +1,12 @@
+---
+emoji: ⚒️
+title: 기술 블로그 직접 개발하기
+date: '2024-12-27'
+author: seungbo An
+tags: Dev
+categories: Dev
+---
+
 <h1 align="center">
   Seungbo An Gatsby Blog Template
 </h1>
