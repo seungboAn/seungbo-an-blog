@@ -20,23 +20,23 @@ categories: Dev
 1. https://wandb.ai/site/ko/ 사이트에 접속합니다.
 
 2. **가입하기** 버튼을 클릭합니다.
-![alt text](Pasted image 20250120153700.png)
+![alt text](image-4.png)
 
 3. 회원 정보를 입력합니다.
-![alt text](Pasted image 20250120153831.png)
+![alt text](image-5.png)
 
 4. 조직 이름을 입력합니다.
-![alt text](Pasted image 20250120153903.png)
+![alt text](image-6.png)
 
 5. **W&B Models**를 선택하고, `pip install wandb`를 통해 설치합니다.
-![alt text](Pasted image 20250120154033.png)
+![alt text](image-7.png)
 
 6. `wandb login`을 입력하고, API키를 복사해서 붙여넣습니다.
-![alt text](Pasted image 20250120155302.png)
-![alt text](Pasted image 20250120155408.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
 
 7. API가 등록되면 `wandb login`을 입력해서 로그인이 되었는지 확인합니다.
-![alt text](Pasted image 20250120155622.png)
+![alt text](image-10.png)
 
 8. 아래 샘플 코드를 복사해서 임의의 모델을 생성합니다.
 ```python
