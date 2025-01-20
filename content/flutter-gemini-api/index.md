@@ -97,7 +97,3 @@ flutter run -d chrome
 
 - `How does the person in the photo feel?`
 ![alt text](image-7.png)
-- 기분에 대해서도 한 번 물어봤습니다.
-
-## 참고사항
-- 예제에 사용된 gemini API key는 노출해서는 안됩니다. ex) git으로 올리지 않게 주의합니다.
