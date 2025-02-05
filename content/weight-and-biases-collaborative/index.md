@@ -21,9 +21,27 @@ W&B의 주요 기능은 다음과 같습니다:
 
 ## 포스팅 본문
 
+## 1. https://wandb.ai 사이트에 접속 후 로그인합니다.
 
+## 2. `home`에서 협업할 팀을 선택합니다.
+![alt text](image.png)
+
+## 3. `Invited team members`를 클릭합니다.
+![alt text](image-1.png)
+
+## 4. `Invite new user`를 클릭합니다.
+![alt text](image-2.png)
+
+## 5. 협업할 팀원의 이메일 혹은 아이디를 입력하고 `Send Invite`를 클릭합니다.
+![alt text](image-3.png)
+
+## 6. 초대가 완료되면, 팀원 목록에 추가됩니다.
+![alt text](image-4.png)
+
+## 7. 
 
 
 
 ## 참고
 - https://docs.wandb.ai/tutorials/experiments/
+- https://wandb.ai/wandb/wandb_example?nw=nwuser_scott
