@@ -18,16 +18,13 @@ categories: Dev
 ```bash
 conda create --name myenv python=3.7
 ```
-`myenv`를 원하는 환경 이름으로 변경하고, `x`를 사용할 Python 버전으로 지정하세요.
-
-![alt text](image.png)
+`myenv`를 원하는 환경 이름으로 변경하고, `3.7`을 사용할 Python 버전으로 지정하세요.
 
 ### 2. 가상환경 활성화
 
 ```bash
 conda activate myenv
 ```
-![alt text](image-1.png)
 
 ### 3. requirements.txt 설치
 ```txt
@@ -39,7 +36,6 @@ matplotlib==3.3.4
 tensorflow==2.4.1
 ```
 
-
 Conda를 사용하여 설치:
 ```bash
 conda install --file requirements.txt
@@ -49,8 +45,6 @@ conda install --file requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
-![alt text](image-2.png)
-
 
 ### 4. 설치 확인
 
@@ -58,7 +52,69 @@ pip install -r requirements.txt
 conda list
 ```
 
-![alt text](image-3.png)
+## 가상 환경 생성 및 관리
+
+### 환경 생성
+```
+conda create -n [환경이름] python=[버전]
+```
+
+### 환경 활성화/비활성화
+```
+conda activate [환경이름]
+conda deactivate
+```
+
+### 환경 목록 확인
+```
+conda env list
+```
+
+### 환경 삭제
+```
+conda env remove -n [환경이름]
+```
+
+### 환경 복제
+```
+conda create --name [새환경이름] --clone [복제할환경이름]
+```
+
+## 패키지 관리
+
+### 패키지 설치
+```
+conda install [패키지이름]
+```
+
+### 패키지 삭제
+```
+conda uninstall [패키지이름]
+```
+
+### 설치된 패키지 목록 확인
+```
+conda list
+```
+
+## 환경 공유 및 이전
+
+### 환경 내보내기 (YAML 파일 생성)
+```
+conda env export --no-builds | grep -v "prefix" > environment.yml
+```
+
+### YAML 파일로 환경 생성
+```
+conda env create -f environment.yml
+```
+
+## Jupyter Notebook 연결
+
+### 가상 환경을 Jupyter Kernel로 등록
+```
+python -m ipykernel install --user --name [환경이름] --display-name "[표시될이름]"
+```
 
 ## 추가 팁
 
